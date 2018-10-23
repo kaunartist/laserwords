@@ -1,0 +1,114 @@
+@media print {
+  .save {
+    display: none;
+  }
+}
+.root {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+.button {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: #52a19e;
+  border-radius: 12px;
+  padding: 10px 20px;
+  width: 40px;
+  color: white;
+  font-family: Helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.save {
+}
+.load {
+}
+.generate {
+  width: 100px;
+}
+.message {
+  font-size: 40px;
+  padding: 10px;
+}
+.wordsleft {
+  font-size: 36px;
+  margin-left: 40px;
+  background-color: #dd3300;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  width: auto;
+  display: inline-block;
+}
+.tiles16 .row {
+  height: 25px;
+  width: 400px;
+  display: block;
+}
+.tiles16 .cell {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: serif;
+  line-height: 25px;
+  text-align: center;
+  color: black;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+.tiles20 .row {
+  height: 25px;
+  width: 400px;
+  display: block;
+}
+.tiles20 .cell {
+  padding: 0;
+  margin: 0;
+  font-size: 52px;
+  line-height: 25px;
+  text-align: center;
+  color: black;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+.tiles24 .row {
+  height: 0.5in;
+  width: 400px;
+  display: block;
+}
+.tiles24 .cell {
+  padding: 0;
+  margin: 0;
+  font-size: 38px;
+  line-height: 0.5in;
+  text-align: center;
+  color: black;
+  width: 0.5in;
+  height: 0.5in;
+  display: inline-block;
+  vertical-align: top;
+}
+.tiles32 .row {
+  height: 0.375in;
+  width: 400px;
+  display: block;
+}
+.tiles32 .cell {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 0.375in;
+  text-align: center;
+  color: black;
+  width: 0.375in;
+  height: 0.375in;
+  display: inline-block;
+  vertical-align: top;
+}
